@@ -1,0 +1,61 @@
+/*home style */
+body{
+    font-size: 18px;
+    background-color: black !important;
+   
+}
+.home{
+    background-image: url("../images/resturant.jpg");
+    background-size:cover ;
+    background-position:  center center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    opacity: 0.9;
+    
+}
+.title-box{
+   padding-top: 15%;
+}
+.title-name{
+    font-size: 50px;
+    color: #f2f3f5;
+    
+    text-align:center;
+   
+    font-weight: 700;
+    line-height: 56px;
+
+}
+.title-name-2{
+    color:#cda45e;
+    text-align:center;
+
+}
+.subtitle{
+    color:#cda45e;
+    text-align: center;
+    font-size: 22px;
+}
+.title{
+    animation-name: scale;
+    animation-duration: 1s;
+}
+@keyframes scale {
+    0%{
+        transform: scale(0);
+    }
+    50% {
+      /* transform: rotate(180deg); */
+      
+       /* transform:translateY(-100px); */
+       transform:  scale(1)
+
+    }
+  }
+  @media (max-width:762px){
+    .title-box{
+        padding-top: 50%;
+     }
+  }
