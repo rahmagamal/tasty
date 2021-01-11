@@ -222,3 +222,45 @@
     transform:scaleX(1.1);
     opacity:0.7;
 }
+/*********Table *************/
+.table{
+    width: 100%;
+    background-color: #0c0b09;
+    padding: 3%;
+}
+.table h2{
+    color:#cda45e ;
+}
+.table h6{
+  color:white ;
+}
+.table-img{
+    width: 100%;
+    height: 60%;
+    border-radius: 9px;
+
+}
+.table .form-control{
+    background-color: #0c0b09 !important;
+    border: 1px solid #3e3c38 !important;
+    padding: 2%;
+}
+.table button ,.table button:hover{
+    color: #e2d2b1;
+    background-color: #c59e5b;
+    border-color: #c59e5b !important;
+    width: 150px;
+    padding: 1%;
+    border-radius: 9px;
+}
+.table select {
+    background-color: #cda45e !important;
+    color: white;
+    border-color: #cda45e !important;
+    width: 150px;
+    margin-left: 7%;
+    padding: 2%;
+}
+.table-form-btn{
+    text-align: center;
+}
