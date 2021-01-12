@@ -333,9 +333,6 @@ footer{
 
 /* Footer left */
 
-.footer-distributed .footer-left{
-	width: 30%;
-}
 .footer-left p{
     color:white;
 }
@@ -379,9 +376,6 @@ footer{
 
 /* Footer Center */
 
-.footer-distributed .footer-center{
-	width: 35%;
-}
 
 
 .footer-distributed .footer-center i{
@@ -424,10 +418,6 @@ footer{
 
 /* Footer Right */
 
-.footer-distributed .footer-right{
-	width: 30%;
-}
-
 .footer-distributed .footer-company-about{
 	line-height: 20px;
 	color:  #92999f;
@@ -438,8 +428,8 @@ footer{
 
 .footer-distributed .footer-company-about span{
 	display: block;
-	color:  #ffffff;
-	font-size: 18px;
+	color: #c59e5b;
+	font-size: 22px;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
