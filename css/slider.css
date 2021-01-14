@@ -1,0 +1,34 @@
+.stretch-card>.card {
+    width: 100%;
+    min-width: 100%;
+    background-color: black;
+}
+.slider{
+    display: none;
+}
+
+@media (max-width:762px) {
+    .slider{
+        display: unset;
+    }
+
+}
+
+
+.owl-carousel .item {
+    margin: 3px
+}
+
+.owl-carousel .item img {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+.owl-carousel .item {
+    margin: 3px
+}
+
+.owl-carousel {
+    margin-bottom: 15px
+}
