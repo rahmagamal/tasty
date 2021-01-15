@@ -45,13 +45,85 @@
     font-weight: 300;
     padding-left: 20px;
     padding-right: 20px;
-}
-/* @media ( max-width:767px){
     
-    header button {
-        margin-left: 247px;
+}
+.navbar-light .navbar-toggler-icon {
+     background-image:unset !important;
+}
+nav button{
+    box-shadow: none !important;
+    border: unset !important;
+    transition: unset !important;
+    transform: unset !important;
+  
+}
+
+
+
+/*home style */
+body{
+    font-size: 18px;
+    background-color: black !important;
+    overflow-x: hidden;
+   
+}
+.home{
+    background-image: url("../images/resturant.jpg");
+    background-size:cover ;
+    background-position:  center center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    opacity: 0.9;
+    
+}
+.title-box{
+   padding-top: 15%;
+}
+.title-name{
+    font-size: 50px;
+    color: #f2f3f5;
+    
+    text-align:center;
+   
+    font-weight: 700;
+    line-height: 56px;
+
+}
+.title-name-2{
+    color:#cda45e;
+    text-align:center;
+
+}
+.subtitle{
+    color:#cda45e;
+    font-weight: 600;
+    text-align: center;
+    font-size: 22px;
+}
+.title{
+    animation-name: scale;
+    animation-duration: 1s;
+}
+@keyframes scale {
+    0%{
+        transform: scale(0);
     }
-} */
+    50% {
+      /* transform: rotate(180deg); */
+      
+       /* transform:translateY(-100px); */
+       transform:  scale(1)
+
+    }
+  }
+  @media (max-width:762px){
+    .title-box{
+        padding-top: 50%;
+     }
+  }
+
 
   /**** About section ***/
   .about{
@@ -158,8 +230,8 @@
       margin-bottom: 15px;
       padding: unset;
   }
-  .whyUs{
-      padding: 10% !important;
+  .box-mobile{
+    PADDING: 6% !important;
   }
   .box:hover{
    
@@ -228,12 +300,8 @@
 .dotted{
     display: none;
 }
-.menu{
-    padding: unset ;
-}
-.section-title{
-    padding: 8%;
-}
+
+
 }
 /*****************Gallery **************/
 .gallery{
@@ -328,18 +396,26 @@
 }
 .contactUs li{
     list-style: none;
+    margin-bottom: 7%;
 }
-.contactUs li p{
-    margin-left: 10%;
+.contactUs li span{
+    /* margin-left: 10%; */
     color: gray;
 }
 .contactUs li svg{
     margin-right: 3%;
 }
-.contactUs li span{
+.contactUs li b{
     font-size: 22px;
+    color: white;
+    margin-right: 3%;
+    font-weight: 400 !important;
 }
-
+@media (max-width:762px){
+    .contactUs ul{
+        padding-left: unset !important;
+    }
+}
 /* The footer is fixed to the bottom of the page */
 
 footer{
@@ -357,10 +433,9 @@ footer{
 	background-color: #171614;
 	box-sizing: border-box;
 	width: 100%;
-	text-align: left;
-	font: bold 16px sans-serif;
-	padding: 50px 50px 60px 50px;
-    /* margin-top: 80px; */
+
+	padding:3%;
+   
     border-top: 1px solid gray;
 }
 
