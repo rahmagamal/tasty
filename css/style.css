@@ -83,7 +83,7 @@ body{
 }
 .title-name{
     font-size: 50px;
-    color: #f2f3f5;
+    color: #1a1016;
     
     text-align:center;
    
@@ -97,7 +97,7 @@ body{
 
 }
 .subtitle{
-    color:#cda45e;
+    color:#1a1016;
     font-weight: 600;
     text-align: center;
     font-size: 22px;
@@ -182,7 +182,7 @@ body{
   /**** why us *****/
   .whyUs{
       width: 100%;
-      background-color: #0c0b09;
+      background-color: #0000;
       padding: 3%;
   }
   .whyUs h2{
@@ -190,6 +190,10 @@ body{
   }
   .whyUs h6{
     color:white ;
+}
+.whyUs-img{
+    width: 100%;
+    height: 600px;
 }
 
   .box{
@@ -226,9 +230,8 @@ body{
   }
   @media (max-width:762px){
 
-  .box{
-      margin-bottom: 15px;
-      padding: unset;
+  .whyUs-img{
+     height: 400px;
   }
   .box-mobile{
     PADDING: 6% !important;
@@ -334,6 +337,27 @@ body{
     .meals{
         display: none !important;
     }
+    .bookTable-img{
+      
+        height: 400px;
+       
+    
+    }
+}
+/***************Dessert**************/
+
+
+.dessert h2{
+  color:#cda45e ;
+}
+.dessert-gif{
+    width: 100%;
+    height: 400px;
+}
+.dessert p{
+    text-align: center;
+    color: #cda45e;
+    font-size: 1.1rem;
 }
 /*********Table *************/
 .bookTable{

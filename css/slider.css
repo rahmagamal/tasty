@@ -4,29 +4,29 @@
     background-color: black;
 }
 .slider{
-    display: none;
+    /* display: none; */
 }
 
 @media (max-width:762px) {
     .slider{
-        display: unset;
+        /* display: unset; */
     }
 
 }
 
 
 .owl-carousel .item {
-    margin: 3px
+    /* margin: 3px */
 }
 
 .owl-carousel .item img {
     display: block;
     width: 100%;
-    height: 400px;
+    height: 350px;
 }
 
 .owl-carousel .item {
-    margin: 3px
+    /* margin: 3px */
 }
 
 .owl-carousel {
